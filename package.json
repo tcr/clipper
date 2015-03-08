@@ -1,7 +1,7 @@
 {
   "name": "clipper",
   "description": "Node binding to C++ clipping library",
-  "version": "1.0.0",
+  "version": "v1.1.0",
   "engines": {
     "node": ">= 0.10.0"
   },
