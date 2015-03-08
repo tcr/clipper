@@ -20,17 +20,19 @@
     "clipping",
     "clipper"
   ],
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/kyleburnett/clipper"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyleburnett/clipper"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha --reporter spec"
   },
   "devDependencies": {
-	"mocha": "1.13.0",
-	"should": "1.2.2"
+    "mocha": "1.13.0",
+    "should": "1.2.2"
   },
-  "main": "./lib/clipper.js"
+  "main": "./lib/clipper.js",
+  "dependencies": {
+    "nan": "^1.7.0"
+  }
 }

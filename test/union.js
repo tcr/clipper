@@ -1,4 +1,4 @@
-var clipper = require('clipper');
+var clipper = require('../');
 
 
 console.log(clipper.union([
